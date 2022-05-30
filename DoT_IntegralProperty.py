@@ -4,7 +4,7 @@ import random
 def integral():
     attempt = 10**3   # 段鍵、平文のランダム設定の回数
     floor = 2     # 何回差分か
-    round = int(input("何段目のIntegral特性を求めますか? :"))
+    round = int(input("何段分のIntegral特性を求めますか? :"))
 
     #出力部のIntegral特性
     for i in range(attempt):
